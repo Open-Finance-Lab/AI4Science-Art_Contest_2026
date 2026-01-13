@@ -13,10 +13,18 @@ This repository contains the website content and starter materials for the **AI 
 
 ## Task 1
 
-## Task 2
+## Task 2  Finding Ground State Energy of Ising Model
+
+Estimate the ground state of Ising models using a reinforcement learning method or hybrid machine learning methods.
+
+Dataset:[Ising_Model_Instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances)
+
+Metric: Will provide a evaluater program in starter kit.
+
+Starter Kit will come soon.
 
 ## Paper Submission Requirements
-Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track]() and should follow its instructions. Please include “RLSolver Contest Task 1/2” in your abstract.
+Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “RLSolver Contest Task 1/2” in your abstract.
 
 
 ## Resources
