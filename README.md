@@ -26,7 +26,7 @@ This task benchmarks the reliability of AI agents for scientific simulation, spe
 Starter kit will come soon.
 
 ## Paper Submission Requirements
-Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “RLSolver Contest Task 1/2” in your abstract.
+Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “AI for Science and Art Contest 1/2” in your abstract.
 
 
 ## Resources
