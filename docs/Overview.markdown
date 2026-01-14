@@ -27,20 +27,27 @@ Each team can choose to participate in one or both tasks. Awards and recognition
 
 #### Goal
 
+<br>
 
 ---
+
+<br>
 
 ### Task II: Finding Ground State Energy of Ising Model
 
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
-- **Goal**: Minimize the Hamiltonian energy $H$ on large-scale Ising lattices.
+- **Goal**: Minimize the Hamiltonian energy on large-scale Ising lattices.
 - **Dataset**: We utilize a compiled standard dataset of [Ising model instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances) on Huggingface.
 - **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
 
 Starter kit will come soon.
 
+<br>
+
 ---
+
+<br>
 
 <p style="font-size: 14px;">
 [1] Lin, Levy, et al. "Reinforcement Learning for Ising Models: Datasets and Benchmark." <em>NeurIPS 2025 Workshop on Machine Learning and the Physical Sciences</em>. [<a href="https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_245.pdf">NeurIPS 2025 Workshop</a>]
