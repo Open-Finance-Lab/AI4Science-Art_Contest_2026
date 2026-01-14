@@ -10,6 +10,14 @@ This repository contains the website content and starter materials for the **AI 
   - [Resources](#resources)
 
 ## Overview
+The AI4Science&Art track explores the effectiveness of AI-driven scientific discovery, including Reinforcement Learning, Foundation Models. and Neuro-symbolic approaches, to solve complex problems in physics and mathematics.
+
+We encourage the development of robust agents that demonstrate:
+- Scalability: The ability to handle large, complex systems.
+- Generalization: The ability to adapt to new, unseen data.
+- Performance: The ability to find optimal solutions efficiently.
+
+We host two tasks to promote interdisciplinary solutions across physics, optimization, and AI-driven discovery.
 
 Each team can choose to participate in one or both tasks. Awards and recognitions will be given for each task.
 
@@ -19,7 +27,7 @@ Each team can choose to participate in one or both tasks. Awards and recognition
 
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
-- **Goal**: Minimize the Hamiltonian energy $H(\sigma)$ on large-scale Ising lattices.
+- **Goal**: Minimize the Hamiltonian energy $H$ on large-scale Ising lattices.
 - **Dataset**: We utilize a compiled standard dataset of [Ising model instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances) on Huggingface.
 - **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
 
