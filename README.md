@@ -5,23 +5,25 @@ This repository contains the website content and starter materials for the **AI 
 ## Outline
   - [Overview](#overview)
   - [Task 1](#task-1)
-  - [Task 2](#task-2)
-  - [Paper Submission Requirements](#paper-submission-requirement)
+  - [Task 2](#task-2-finding-ground-state-energy-of-ising-model)
+  - [Paper Submission Requirements](#paper-submission-requirements)
   - [Resources](#resources)
 
 ## Overview
 
+Each team can choose to participate in one or both tasks. Awards and recognitions will be given for each task.
+
 ## Task 1
 
-## Task 2  Finding Ground State Energy of Ising Model
+## Task 2 Finding Ground State Energy of Ising Model
 
-Estimate the ground state of Ising models using a reinforcement learning method or hybrid machine learning methods.
+This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
-Dataset:[Ising_Model_Instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances)
+- **Goal**: Minimize the Hamiltonian energy $H(\sigma)$ on large-scale Ising lattices.
+- **Dataset**: We utilize a compiled standard dataset of [Ising model instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances) on Huggingface.
+- **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
 
-Metric: Will provide a evaluater program in starter kit.
-
-Starter Kit will come soon.
+Starter kit will come soon.
 
 ## Paper Submission Requirements
 Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “RLSolver Contest Task 1/2” in your abstract.
