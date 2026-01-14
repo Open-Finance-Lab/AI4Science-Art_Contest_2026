@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AI4Science & Art 2025
+title: AI4Science & Art 2026
 email: rlsolvercontest@outlook.com
 description: >-
   Official website for the AI for Science and Art Contest 2025, a contest focused on graph-based combinatorial optimization using reinforcement learning and conventional methods.
