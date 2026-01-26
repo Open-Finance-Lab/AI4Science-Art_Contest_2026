@@ -27,4 +27,4 @@ weight: 5
 | Photo | Biography |
 |-------|-----------|
 | <img src="https://github.com/Open-Finance-Lab/RLSolver_Contest_2025/blob/main/docs/assets/organizers/Levy.jpg?raw=true" alt="Levy Lin" width="400" style="border-radius:8px;" /> | **Levy Lin**, bachelor’s student at Rensselaer Polytechnic Institute. His interests include machine learning and combinatorial optimization. Research assistant at Colombia’s Tensor and Deep Learning Lab. |
-| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Christopher.jpg?raw=true" alt="Christopher Poon" width="400" style="border-radius:8px;" /> | **Christopher Poon**, bachelor's student at Rensselaer Polytechnic Institute.|
+| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Christopher.jpg?raw=true" alt="Christopher Poon" width="400" style="border-radius:8px;" /> | **Christopher Poon**, bachelor's student at Rensselaer Polytechnic Institute. His interests include machine learning and quantum computing.|
