@@ -18,7 +18,7 @@ weight: 5
 
 ## Program Chair
 
-| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Zhiyuan.jpg?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Zhiyuan Wang**,  Test|
+| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Zhiyuan.png?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Zhiyuan Wang**, bachelor at Rensselaer Polytechnic Institute. Passionate about machine learning and Transformer-based methods for solvers. Research Assistant at Tensor and Deep Learning Lab associated with Columbia University.|
 
 
 ---
@@ -26,10 +26,10 @@ weight: 5
 ## Technical Program Committee
 
 
-| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Christopher.jpg?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Christopher Poon**,  Test|
+| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Christopher.jpg?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Christopher Poon**, bachelor's student at Rensselaer Polytechnic Institute.|
 
 
-| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Levy.jpg?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Levy Lin**,  Test|
+| <img src="https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/blob/main/docs/assets/organizers/Levy.jpg?raw=true" alt="Zhiyuan" width="1500" style="border-radius:8px;" /> | **Levy Lin**,  bachelor at Rensselaer Polytechnic Institute. His interests include machine learning and combinatorial optimization. Research assistant at Colombia’s Tensor and Deep Learning Lab.|
 
 
 
