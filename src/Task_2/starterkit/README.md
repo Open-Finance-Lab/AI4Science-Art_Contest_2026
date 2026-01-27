@@ -5,12 +5,9 @@
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
 Your goal is to minimize Hamiltonian energy on large-scale Ising lattices. 
-
 $$
 H(\sigma) = - \sum_{i<j} J_{ij} \sigma_i \sigma_j
 $$
-
-
 ## Starterkit
 
 Our starterkit ships two reference ML solvers:

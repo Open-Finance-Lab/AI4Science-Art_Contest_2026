@@ -13,19 +13,17 @@ Our dataset is organized by the paper and exhbits the following features.
 
 | Dataset | Dimension | Type of Ising Model | Instances |          Spins          |        Couplings        |      Coupling Strength      |
 | ------- | --------- | ------------------- | :-------: | :---------------------: | :---------------------: | :-------------------------: |
-| VNA     | 1D        | Classic             |    75    |  32$\textbf{--}$ 128  |  31$\textbf{--}$ 127  | 0.000$\textbf{--}$ 1.000 |
-|         | 2D        | Spin-Glass          |    75    | 100$\textbf{--}$ 1600 | 180$\textbf{--}$ 3120 | -1.000$\textbf{--}$ 1.000 |
-| DRL     | 2D        | Spin-Glass          |    75    | 400$\textbf{--}$ 1225 | 800$\textbf{--}$ 2450 | -4.088$\textbf{--}$ 4.466 |
-|         | 3D        | Spin-Glass          |    75    |  64$\textbf{--}$ 512  | 192$\textbf{--}$ 1536 | -3.850$\textbf{--}$ 4.428 |
+| VNA     | 1D        | Classic             |    75    |  32 $\textbf{--}$ 128  |  31 $\textbf{--}$ 127  | 0.000 $\textbf{--}$ 1.000 |
+|         | 2D        | Spin-Glass          |    75    | 100 $\textbf{--}$ 1600 | 180 $\textbf{--}$ 3120 | -1.000 $\textbf{--}$ 1.000 |
+| DRL     | 2D        | Spin-Glass          |    75    | 400 $\textbf{--}$ 1225 | 800 $\textbf{--}$ 2450 | -4.088 $\textbf{--}$ 4.466 |
+|         | 3D        | Spin-Glass          |    75    |  64 $\textbf{--}$ 512  | 192 $\textbf{--}$ 1536 | -3.850 $\textbf{--}$ 4.428 |
 
 ## Metric and Evaluation
 
 We will be evaluating scores based on the Hamiltonian (shown below) of the solution obtained. Your goal: achieve the lowest energy configuration.
-
 $$
 H(\sigma) = - \sum_{i<j} J_{ij} \sigma_i \sigma_j
 $$
-
 Additionally we provide a baseline of scores from Gurobi, a commercial mixed-integer programming solver that employs a branch-cut algorithm to search for the ground state of Ising models. We encode the ground-state problem as a QUBO, solve it using Gurobi under an one-hour time limit, and report the resulting Hamiltonian. Baseline scores are located in `src/Task_2/dataset/baseline`. All baseline scores adhere to the following format:
 
 ```
