@@ -21,7 +21,10 @@ We host two tasks to promote interdisciplinary solutions across physics, optimiz
 
 Each team can choose to participate in one or both tasks. Awards and recognitions will be given for each task.
 
-## Task 1
+## Task 1: Graph Max-Cut with Parallel RL Agents
+
+Develop GPU-accelerated RL agents to solve the Max-Cut problem on large graphs. This task focuses on learning generalizable solutions across different graph distributions (e.g., BA, ER, PL).  
+Starter kit coming soon.
 
 ## Task 2 Finding Ground State Energy of Ising Model
 
