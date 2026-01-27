@@ -16,13 +16,13 @@ class config:
         self.activation_function = tf.nn.elu    # Non-linear activation function for the RNN cell
 
         '''training'''
-        self.numsamples = 50            # Number of samples used for each training step
-        self.lr = 5*(1e-4)              # Learning rate
-        self.T0 = 2                     # Initial temperature
-        self.Bx0 = 0                    # Initial magnetic field
-        self.num_warmup_steps = 1000    # Number of warmup steps
-        self.num_annealing_steps = 2**8 # Number of annealing steps
-        self.num_equilibrium_steps = 5  # Number of training steps after each annealing step
+        self.numsamples = 50                    # Number of samples used for each training step
+        self.lr = 5*(1e-4)                      # Learning rate
+        self.T0 = 2                             # Initial temperature
+        self.Bx0 = 0                            # Initial magnetic field
+        self.num_warmup_steps = 1000            # Number of warmup steps
+        self.num_annealing_steps = 2**8         # Number of annealing steps
+        self.num_equilibrium_steps = 5          # Number of training steps after each annealing step
     
     def read_graph(self, graph_path):
 

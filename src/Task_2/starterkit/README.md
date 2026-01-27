@@ -1,35 +1,41 @@
-# AI for Science and Art Task 2 Dataset & Starterkit
+# AI for Science and Art Task 2: Starterkit
 
 ## Goal
+
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
-Your goal is to minimize Hamiltonian energy on large-scale Ising lattices. $$H(\sigma) = - \sum_{i<j} J_{ij} \sigma_i \sigma_j$$.
+Your goal is to minimize Hamiltonian energy on large-scale Ising lattices. 
 
-## Dataset
+$$
+H(\sigma) = - \sum_{i<j} J_{ij} \sigma_i \sigma_j
+$$
 
-We provide a dataset of challenging Spin Glass instances featuring geometric frustration, large edge weights, large scale, and high dimensionality.
-
-Dataset will come soon.
 
 ## Starterkit
+
 Our starterkit ships two reference ML solvers:
 
-| Solver | Paper | Original authors | Our fork |
-|--------|-------|------------------|----------|
-| **MCPG** | *Monte Carlo Policy Gradient Method for Binary Optimization* (Cheng Chen et al., 2023) | <https://github.com/optsuite/mcpg> | `src/Task_2/starterkit/MCPG/mcpg.py` |
-| **VCA** | *Variational Neural Annealing* (Mohamed Hibat-Allah et al., 2021) | <https://github.com/VectorInstitute/VariationalNeuralAnnealing> | `src/Task_2/starterkit/VCA/vca.py` |
-
+| Solver         | Paper                                                                                    | Original authors                                                                                                            | Our fork                               |
+| -------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **MCPG** | *Monte Carlo Policy Gradient Method for Binary Optimization* (Cheng Chen et al., 2023) | [https://github.com/optsuite/mcpg](https://github.com/optsuite/mcpg)                                                           | `src/Task_2/starterkit/MCPG/mcpg.py` |
+| **VCA**  | *Variational Neural Annealing* (Mohamed Hibat-Allah et al., 2021)                      | [https://github.com/VectorInstitute/VariationalNeuralAnnealing](https://github.com/VectorInstitute/VariationalNeuralAnnealing) | `src/Task_2/starterkit/VCA/vca.py`   |
 
 ### MCPG Quickstart
+
 Environment setup: We recommend conda for the most convenient installation.
+
 ```
 conda env create -f envs/mcpg_environment.yaml
 ```
+
 Usage:
+
 ```
 python mcpg.py ising_default.yaml [problem instance]
 ```
+
 Example Ouput:
+
 ```
 > python mcpg.py ising_default.yaml ../../dataset/EA/EA_10x10/10x10_uniform_seed1.txt
 
@@ -43,7 +49,9 @@ OUTPUT: -78.650406
 DATA LOADING TIME: 4.3900
 MCPG RUNNING TIME: 14.1647
 ```
+
 Configuration of Local Search and Sampling frequency is located in `src/Task_2/starterkit/MCPG/ising_default.yaml`.
+
 ```
 lr_init: 0.25           # Inital learning rate
 regular_init: 0         # Inital regularization strength
@@ -56,15 +64,21 @@ num_ls: 3               # Number of Local Search steps
 ```
 
 ### VCA Quickstart
+
 Environment setup: We recommend conda for the most convenient installation.
+
 ```
 conda env create -f envs/vca_environment.yaml
 ```
+
 Usage:
+
 ```
 python vca.py [problem instance]
 ```
+
 Example Ouput:
+
 ```
 > python vca.py ../../dataset/EA/EA_10x10/10x10_uniform_seed1.txt
 
@@ -85,7 +99,9 @@ Temperature:  1.875
 Magnetic field:  0.0
 Elapsed time is = 137.31043696403503  seconds
 ```
+
 Configuration of Wavefunction RNN and Simulated Annealing Samping procedure is located in `src/Task_2/starterkit/VCA/config.py`.
+
 ```
 self.num_units = 40                     # Number of hidden memory units per layer
 self.num_layers = int(sqrt(N))          # Number of RNN layers
@@ -101,6 +117,7 @@ self.num_equilibrium_steps = 5          # Number of training steps after each an
 ```
 
 ## Directory Layout
+
 ```
     ├── dataset/            : Provided dataset of Ising model instances
     |
@@ -122,3 +139,9 @@ self.num_equilibrium_steps = 5          # Number of training steps after each an
             ├── utils.py        : Helper functions to calculate Hamiltonian energy.
             └── vca.py          : Main file to run VCA on specific problem instance.  
 ```
+
+## References
+
+Chen, Cheng & Chen, Ruitao & Li, Tianyou & Ao, Ruicheng & Wen, Zaiwen. (2025). A Monte Carlo Policy Gradient Method with Local Search for Binary Optimization. Mathematical Programming. 10.1007/s10107-025-02277-2. https://arxiv.org/abs/2307.00783
+
+Hibat-Allah, M., Inack, E.M., Wiersema, R. et al. Variational neural annealing. Nat Mach Intell 3, 952–961 (2021). https://doi.org/10.1038/s42256-021-00401-3

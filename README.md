@@ -28,10 +28,9 @@ Each team can choose to participate in one or both tasks. Awards and recognition
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
 - **Goal**: Minimize the Hamiltonian energy $H$ on large-scale Ising lattices.
-- **Dataset**: We utilize a compiled standard dataset of [Ising model instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances) on Huggingface.
-- **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
-
-Starter kit will come soon.
+- **Dataset**: We provide a curated dataset of Spin-Glass Ising model instances located at `src/Task_2/dataset`.
+- **Baseline**: We provide a baseline of results from Gurobi, a commercial mixed-integer programming solver, located at `src/Task_2/dataset/baseline`.
+- **Starterkit**: We provide a starterkit of two ML methods, Variational Classial Annealing and Monte Carlo Policy Gradient, located at `src/Task_2/starterkit`.
 
 ## Paper Submission Requirements
 Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “AI for Science and Art Contest 1/2” in your abstract.
