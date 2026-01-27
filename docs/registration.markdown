@@ -8,14 +8,13 @@ weight: 2
 ## Timeline
 * **Team Registration Begin**: 
   
-  <span style="color:blue;">Register your team [here]()</span>
-* **Starter-Kit Release**: 
-* **Paper Submission Deadline**:
-* **Paper Notification**:
-* **Paper Cemera Ready**: 
-* **Solution Submission Deadline**: 
-* **Winner Notification**: 
-* **Winner Announcement**:
+  <span style="color:blue;">Register your team [here](https://docs.google.com/forms/d/e/1FAIpQLSc3dhRm_TSLerilob6xgX011uMwf4SYWzBQxi6Pgy42s7M9mQ/viewform?usp=dialog)</span>
+* **Starter-Kit Release**: Jan 25, 2026
+* **Paper Submission Deadline**: Mar 10, 2026
+* **Paper Cemera Ready**: Apr 1, 2026
+* **Solution Submission Deadline**: Apr 20, 2026
+* **Winner Notification**: May 5, 2026 and during conference
+* **Winner Announcement**: During conference
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 
@@ -23,9 +22,9 @@ Winners will be invited to attend the conference and have the opportunity to pre
 
 
 ## Registration
-Team registration is done through the [form](). Please ensure that all team members provide their full names, emails, institutions, and the team name. We encourage you to use your institutional email to register.
+Team registration is done through the [form](https://docs.google.com/forms/d/e/1FAIpQLSc3dhRm_TSLerilob6xgX011uMwf4SYWzBQxi6Pgy42s7M9mQ/viewform?usp=dialog). Please ensure that all team members provide their full names, emails, institutions, and the team name. We encourage you to use your institutional email to register.
 
-The top winners of each task should register the [conference]() and present their work in person or online at the conference. At least one author of each accepted paper should register the [conference](). Papers with “No Show” may be redacted. Participants will be required to agree to this requirement at the time of submission.
+The top winners of each task should register the [conference](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and present their work in person or online at the conference. At least one author of each accepted paper should register the [conference](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html). Papers with “No Show” may be redacted. Participants will be required to agree to this requirement at the time of submission.
 
 
 ## Rules
