@@ -42,6 +42,11 @@ u v w         # edge from node u to v with weight w
 #### Goal
 
 Maximize the cut value using RL agents with multiple training environments.
+
+Starter kit is available at  
+[GitHub – Task I Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
+
+
 <br>
 
 ---
