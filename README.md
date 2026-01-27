@@ -4,12 +4,13 @@ This repository contains the website content and starter materials for the **AI 
 
 ## Outline
   - [Overview](#overview)
-  - [Task 1](#task-1)
-  - [Task 2](#task-2-finding-ground-state-energy-of-ising-model)
-  - [Paper Submission Requirements](#paper-submission-requirements)
+  - [Task 1: Graph Max-Cut with Parallel RL Agents](#task-1-graph-max-cut-with-parallel-rl-agents)
+  - [Task 2: Finding Ground State Energy of Ising Model](#task-2-finding-ground-state-energy-of-ising-model)
+  - [Paper Submission Requirements](#paper-submission-requirement)
   - [Resources](#resources)
 
 ## Overview
+
 The AI4Science&Art track explores the effectiveness of AI-driven scientific discovery, including Reinforcement Learning, Foundation Models. and Neuro-symbolic approaches, to solve complex problems in physics and mathematics.
 
 We encourage the development of robust agents that demonstrate:
