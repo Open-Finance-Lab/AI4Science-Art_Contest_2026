@@ -4,12 +4,13 @@ This repository contains the website content and starter materials for the **AI 
 
 ## Outline
   - [Overview](#overview)
-  - [Task 1](#task-1)
-  - [Task 2](#task-2-finding-ground-state-energy-of-ising-model)
-  - [Paper Submission Requirements](#paper-submission-requirements)
+  - [Task 1: Graph Max-Cut with Parallel RL Agents](#task-1-graph-max-cut-with-parallel-rl-agents)
+  - [Task 2: Finding Ground State Energy of Ising Model](#task-2-finding-ground-state-energy-of-ising-model)
+  - [Paper Submission Requirements](#paper-submission-requirement)
   - [Resources](#resources)
 
 ## Overview
+
 The AI4Science&Art track explores the effectiveness of AI-driven scientific discovery, including Reinforcement Learning, Foundation Models. and Neuro-symbolic approaches, to solve complex problems in physics and mathematics.
 
 We encourage the development of robust agents that demonstrate:
@@ -21,7 +22,12 @@ We host two tasks to promote interdisciplinary solutions across physics, optimiz
 
 Each team can choose to participate in one or both tasks. Awards and recognitions will be given for each task.
 
-## Task 1
+## Task 1: Graph Max-Cut with Parallel RL Agents
+
+Develop GPU-accelerated RL agents to solve the Max-Cut problem on large graphs. This task focuses on learning generalizable solutions across different graph distributions (e.g., BA, ER, PL).  
+
+Starter kit is available at  
+[GitHub – Task I Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
 
 ## Task 2 Finding Ground State Energy of Ising Model
 
@@ -30,7 +36,10 @@ This task benchmarks the reliability of AI agents for scientific simulation, spe
 - **Goal**: Minimize the Hamiltonian energy $H$ on large-scale Ising lattices.
 - **Dataset**: We provide a curated dataset of Spin-Glass Ising model instances located at `src/Task_2/dataset`.
 - **Baseline**: We provide a baseline of results from Gurobi, a commercial mixed-integer programming solver, located at `src/Task_2/dataset/baseline`.
-- **Starterkit**: We provide a starterkit of two ML methods, Variational Classial Annealing and Monte Carlo Policy Gradient, located at `src/Task_2/starterkit`.
+
+Starter kit is available at  
+[GitHub – Task II Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
+
 
 ## Paper Submission Requirements
 Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “AI for Science and Art Contest 1/2” in your abstract.

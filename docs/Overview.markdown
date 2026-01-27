@@ -21,11 +21,31 @@ We design two challenge tasks that allow participants to explore learning-based 
 
 Each team can choose to participate in one or both tasks. Awards and recognitions will be given for each task. 
 
-### Task I
+### Task I: Graph Maxcut
+
+Develop reinforcement learning agents to solve Max-Cut problems on large graphs. Agents must be trained in a **distribution-wise** fashion across families of graphs, utilizing GPU-based environments for sampling.
 
 #### Dataset
 
+Synthetic graphs generated from the following distributions:
+- **BA (Barabási–Albert)**
+- **ER (Erdős–Rényi)**
+- **PL (Power-Law)**
+
+Each graph file follows:
+
+```
+n m           # number of nodes and edges  
+u v w         # edge from node u to v with weight w  
+```
+
 #### Goal
+
+Maximize the cut value using RL agents with multiple training environments.
+
+Starter kit is available at  
+[GitHub – Task I Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
+
 
 <br>
 
@@ -42,7 +62,7 @@ This task benchmarks the reliability of AI agents for scientific simulation, spe
 - **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
 
 Starter kit is available at  
-[GitHub – Task II Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src/Task_2Starter%20kit).
+[GitHub – Task II Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
 
 
 <br>
