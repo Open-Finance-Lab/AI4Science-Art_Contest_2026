@@ -11,18 +11,18 @@ class config:
         self.Jz = Jz
 
         '''model'''
-        self.num_units = 40                     # number of memory units
-        self.num_layers = int(sqrt(N))          # number of layers 
-        self.activation_function = tf.nn.elu    # non-linear activation function for the RNN cell
+        self.num_units = 40                     # Number of hidden memory units per layer
+        self.num_layers = int(sqrt(N))          # Number of RNN layers
+        self.activation_function = tf.nn.elu    # Non-linear activation function for the RNN cell
 
         '''training'''
-        self.numsamples = 50            # number of samples used for training
-        self.lr = 5*(1e-4)              # learning rate
+        self.numsamples = 50            # Number of samples used for each training step
+        self.lr = 5*(1e-4)              # Learning rate
         self.T0 = 2                     # Initial temperature
         self.Bx0 = 0                    # Initial magnetic field
-        self.num_warmup_steps = 1000    # number of warmup steps
-        self.num_annealing_steps = 2**8 # number of annealing steps
-        self.num_equilibrium_steps = 5  # number of training steps after each annealing step
+        self.num_warmup_steps = 1000    # Number of warmup steps
+        self.num_annealing_steps = 2**8 # Number of annealing steps
+        self.num_equilibrium_steps = 5  # Number of training steps after each annealing step
     
     def read_graph(self, graph_path):
 

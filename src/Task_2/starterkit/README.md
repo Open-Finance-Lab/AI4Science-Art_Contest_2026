@@ -3,7 +3,7 @@
 ## Goal
 This task benchmarks the reliability of AI agents for scientific simulation, specifically for the Ising model. Finding the ground state energy of the Ising model is computationally difficult but fundamental to simulating complex physical systems. Participants are expected to develop reinforcement learning or foundation models that will be evaluated on their ability to efficiently locate ground states in large-scale Ising spin lattices.
 
-Your goal is to minimize Hamiltonian energy $H$ on large-scale Ising lattices.
+Your goal is to minimize Hamiltonian energy on large-scale Ising lattices. $$H(\sigma) = - \sum_{i<j} J_{ij} \sigma_i \sigma_j$$.
 
 ## Dataset
 
@@ -44,7 +44,16 @@ DATA LOADING TIME: 4.3900
 MCPG RUNNING TIME: 14.1647
 ```
 Configuration of Local Search and Sampling frequency is located in `src/Task_2/starterkit/MCPG/ising_default.yaml`.
-
+```
+lr_init: 0.25           # Inital learning rate
+regular_init: 0         # Inital regularization strength
+sample_epoch_num: 8     # Number of trainng epcohs between MCMC sampling
+max_epoch_num: 400      # Total number of epochs
+reset_epoch_num: 80     # Number of epochs between model's parameter reset
+total_mcmc_num: 130     # Number of parallel MCMC samples
+repeat_times: 120       # Number of times the best solution is replicated
+num_ls: 3               # Number of Local Search steps
+```
 
 ### VCA Quickstart
 Environment setup: We recommend conda for the most convenient installation.
@@ -77,15 +86,28 @@ Magnetic field:  0.0
 Elapsed time is = 137.31043696403503  seconds
 ```
 Configuration of Wavefunction RNN and Simulated Annealing Samping procedure is located in `src/Task_2/starterkit/VCA/config.py`.
+```
+self.num_units = 40                     # Number of hidden memory units per layer
+self.num_layers = int(sqrt(N))          # Number of RNN layers
+self.activation_function = tf.nn.elu    # Non-linear activation function for the RNN cell
+
+self.numsamples = 50                    # Number of samples used for each training step
+self.lr = 5*(1e-4)                      # Learning rate
+self.T0 = 2                             # Initial temperature
+self.Bx0 = 0                            # Initial magnetic field
+self.num_warmup_steps = 1000            # Number of warmup steps
+self.num_annealing_steps = 2**8         # Number of annealing steps
+self.num_equilibrium_steps = 5          # Number of training steps after each annealing step
+```
 
 ## Directory Layout
 ```
-    ├── dataset/            : 
+    ├── dataset/            : Provided dataset of Ising model instances
     |
     └── starterkit/
         ├── envs/
         |   ├── mcpg_enviroment.yaml    : Conda environment file for MCPG.
-        |   ├── vca_enviroment.yaml     : Conda environment file for VCA.
+        |   └── vca_enviroment.yaml     : Conda environment file for VCA.
         |
         ├── MCPG/
         |   ├── dataloader.py       : Data loader for MCPG to input the problem instance.
