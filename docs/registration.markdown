@@ -11,6 +11,7 @@ weight: 2
   <span style="color:blue;">Register your team [here](https://docs.google.com/forms/d/e/1FAIpQLSc3dhRm_TSLerilob6xgX011uMwf4SYWzBQxi6Pgy42s7M9mQ/viewform?usp=dialog)</span>
 * **Starter-Kit Release**: Jan 25, 2026
 * **Paper Submission Deadline**: Mar 10, 2026
+* **Paper Notification**: Mar 20, 2026
 * **Paper Cemera Ready**: Apr 1, 2026
 * **Solution Submission Deadline**: Apr 20, 2026
 * **Winner Notification**: May 5, 2026 and during conference
