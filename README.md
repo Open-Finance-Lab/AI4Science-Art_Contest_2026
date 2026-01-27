@@ -34,7 +34,8 @@ This task benchmarks the reliability of AI agents for scientific simulation, spe
 - **Dataset**: We utilize a compiled standard dataset of [Ising model instances](https://huggingface.co/datasets/SecureFinAI-Lab/Ising_Model_Instances) on Huggingface.
 - **Metric**: We provide an evaluator program in the starter kit that calculates the geometric mean across results.
 
-Starter kit will come soon.
+Starter kit is available at  
+[GitHub – Task II Starter Kit](https://github.com/Open-Finance-Lab/AI4Science-Art_Contest_2026/tree/main/src).
 
 ## Paper Submission Requirements
 Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through [the special track](https://www.cloud-conf.net/datasec/2026/ids/AI4Science&Art.html) and should follow its instructions. Please include “AI for Science and Art Contest 1/2” in your abstract.
